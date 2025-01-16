@@ -1,9 +1,9 @@
 # Driver para o SC75823 usando Arduino
 A placa usada é um frontal do H-Buster **HBD-2300MP**
 
-![Frente da Placa]( "Frente da placa")
+![Frente da Placa](https://github.com/lucas458/SC75823/blob/main/misc/frente.jpg?raw=true "Frente da placa")
 
-![Verso da Placa]( "Verso da placa")
+![Verso da Placa](https://github.com/lucas458/SC75823/blob/main/misc/verso.jpg?raw=true "Verso da placa")
 
 
 ## Datasheets
@@ -69,6 +69,9 @@ void setBigDigitData(uint16_t data, uint8_t digit);
 ```
 
 Os bits do parametro `data` controla cada segmento do display
+
+> [!NOTE]  
+> O segmento **A** corresponde ao bit `0` do parametro `data`
 
 
 ### Para Enviar String no display de 14 segmentos
