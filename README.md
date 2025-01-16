@@ -1,8 +1,11 @@
 # Driver para o SC75823 usando Arduino
 A placa usada é um frontal do H-Buster **HBD-2300MP**
 
+
+#### Frente
 ![Frente da Placa](https://github.com/lucas458/SC75823/blob/main/misc/frente.jpg?raw=true "Frente da placa")
 
+#### Verso
 ![Verso da Placa](https://github.com/lucas458/SC75823/blob/main/misc/verso.jpg?raw=true "Verso da placa")
 
 
