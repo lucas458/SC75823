@@ -114,6 +114,6 @@ void SC75823_update(uint8_t control);
 | 1 | Power-saving mode |
 
 > [!WARNING]  
-> Os demais bits devem ter o valor `0`
+> O bit 0 de _control_ deve ter valor `0`. Os bits de 7 a 4 não importam
 
 
