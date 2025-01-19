@@ -84,3 +84,36 @@ void setBigDigitString(char *txt);
 
 > [!NOTE]  
 > Nem todos os caracteres do `digitMap14[]` foram mapeados corretamente, apenas números e letras maiúsculas.
+
+
+
+### Enviar Dados à tela
+```c
+void SC75823_update(uint8_t control);
+```
+
+
+#### DR - Drive Type: bit `1`
+| Nível | Descrição |
+| :-: | :-: | 
+| 0 | 1/2 bias drive |
+| 1 | 1/3 bias drive |
+
+
+#### SC - Display State: bit `2`
+| Nível | Descrição |
+| :-: | :-: | 
+| 0 | On |
+| 1 | Off |
+
+
+#### BU - Mode bit: `3`
+| Nível | Descrição |
+| :-: | :-: | 
+| 0 | Normal Mode |
+| 1 | Power-saving mode |
+
+> [!WARNING]  
+> Os demais bits devem ter o valor `0`
+
+
